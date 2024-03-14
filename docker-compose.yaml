@@ -1,0 +1,21 @@
+version: '3'
+services:
+  web:
+    image: ubuntu
+    container_name: node.basic
+    command: bash -c "apt-get update && apt-get install -y nginx && nginx -g 'daemon off;'"
+    ports:
+      - "80:80"
+    depends_on:
+      - node
+
+  node:
+    image: node:latest
+    volumes:
+      - ./seu_projeto:/app
+    working_dir: /app
+    command: bash -c "npm install && npm start"
+
+volumes:
+  seu_projeto:
+    driver: local
