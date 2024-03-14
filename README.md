@@ -12,7 +12,7 @@
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-### ⚙ BACK-END
+### BACK-END
 - Node.js
 - PostgreSQL.
 - Fastify
