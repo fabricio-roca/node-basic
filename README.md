@@ -1,9 +1,7 @@
 <h1 align="center">API NODE</h1>
 
 <p align="center"><em>
-<em>
-  Desenvolvemos uma API robusta em Node.js, utilizando a poderosa combinação de Fastify e PostgreSQL. Esta aplicação oferece recursos completos para a criação, edição, cadastro e exclusão de vídeos, proporcionando uma experiência de gerenciamento de conteúdo de alta qualidade e desempenho.
-</em>
+ Desenvolvi uma API em Node.js usando Fastify e PostgreSQL. Essa aplicação permite criar, editar, cadastrar e excluir vídeos, proporcionando uma experiência de gerenciamento de conteúdo eficiente e rápida.
 </p>
 
 <br>
